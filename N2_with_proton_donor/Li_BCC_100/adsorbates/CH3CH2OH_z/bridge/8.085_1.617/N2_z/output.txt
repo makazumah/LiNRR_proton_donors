@@ -5,10 +5,10 @@
  |__ |  _|___|_____|  22.8.0
  |___|_|             
 
-User:   vazumah@c13.hercules
-Date:   Fri Feb 24 17:23:39 2023
+User:   vazumah@c10.hercules
+Date:   Sat Feb 25 22:51:53 2023
 Arch:   x86_64
-Pid:    10424
+Pid:    21184
 CWD:    /home/vazumah/Python_projects/LiNRR/Li_adsorb_studies/proton_donors/N2_with_proton_donor/Li_BCC_100/adsorbates/CH3CH2OH_z/bridge/8.085_1.617/N2_z
 Python: 3.10.8
 gpaw:   /home/vazumah/.conda/envs/GPAW/lib/python3.10/site-packages/gpaw
@@ -215,7 +215,7 @@ Dipole correction along z-axis
 XC parameters: BEEF-vdW with 2 nearest neighbor stencil
 
 Memory estimate:
-  Process memory now: 235.62 MiB
+  Process memory now: 235.61 MiB
   Calculator: 411.72 MiB
     Density: 118.00 MiB
       Arrays: 36.75 MiB
