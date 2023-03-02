@@ -219,3 +219,15 @@ Number of bands in calculation: 38
 Number of valence electrons: 56
 Bands to converge: occupied
 
+... initialized
+
+Timing:           incl.     excl.
+----------------------------------------
+Redistribute:     0.012     0.012   0.0% |
+Set symmetry:     0.016     0.016   0.0% |
+Other:        307639.913 307639.913 100.0% |---------------------------------------|
+----------------------------------------
+Total:                  307639.941 100.0%
+
+Memory usage: 4.53 GiB
+Date: Wed Mar  1 12:17:41 2023

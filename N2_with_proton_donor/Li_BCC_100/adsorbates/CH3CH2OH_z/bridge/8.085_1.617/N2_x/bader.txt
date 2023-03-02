@@ -493,3 +493,81 @@ Fermi level: -2.73258
 Gap: 0.239 eV
 Transition (v -> c):
   (s=0, k=0, n=31, [0.00, 0.00, 0.00]) -> (s=0, k=0, n=32, [0.00, 0.00, 0.00])
+Timing:                               incl.     excl.
+------------------------------------------------------------
+Hamiltonian:                          1.196     0.000   0.0% |
+ Atomic:                              0.031     0.001   0.0% |
+  XC Correction:                      0.030     0.030   0.0% |
+ Calculate atomic Hamiltonians:       0.038     0.038   0.0% |
+ Communicate:                         0.083     0.083   0.0% |
+ Hartree integrate/restrict:          0.047     0.047   0.0% |
+ Initialize Hamiltonian:              0.000     0.000   0.0% |
+ Poisson:                             0.763     0.032   0.0% |
+  Communicate from 1D:                0.246     0.246   0.0% |
+  Communicate from 2D:                0.197     0.197   0.0% |
+  Communicate to 1D:                  0.069     0.069   0.0% |
+  Communicate to 2D:                  0.103     0.103   0.0% |
+  FFT 1D:                             0.080     0.080   0.0% |
+  FFT 2D:                             0.035     0.035   0.0% |
+ XC 3D grid:                          0.231     0.231   0.0% |
+ vbar:                                0.002     0.002   0.0% |
+HirshfeldPartitioning initialize:     4.317     4.317   0.0% |
+LCAO initialization:                  2.200     0.821   0.0% |
+ LCAO eigensolver:                    0.700     0.001   0.0% |
+  Calculate projections:              0.000     0.000   0.0% |
+  DenseAtomicCorrection:              0.000     0.000   0.0% |
+  Distribute overlap matrix:          0.541     0.541   0.0% |
+  Orbital Layouts:                    0.158     0.158   0.0% |
+  Potential matrix:                   0.000     0.000   0.0% |
+ LCAO to grid:                        0.003     0.003   0.0% |
+ Set positions (LCAO WFS):            0.676     0.529   0.0% |
+  Basic WFS set positions:            0.004     0.004   0.0% |
+  Basis functions set positions:      0.001     0.001   0.0% |
+  P tci:                              0.000     0.000   0.0% |
+  ST tci:                             0.025     0.025   0.0% |
+  mktci:                              0.117     0.117   0.0% |
+SCF-cycle:                         2245.922     3.662   0.0% |
+ Davidson:                         2109.306  1766.643   0.6% |
+  Apply hamiltonian:                 54.785    54.785   0.0% |
+  Subspace diag:                     76.077     0.015   0.0% |
+   calc_h_matrix:                    57.942     3.766   0.0% |
+    Apply hamiltonian:               54.176    54.176   0.0% |
+   diagonalize:                       9.782     9.782   0.0% |
+   rotate_psi:                        8.338     8.338   0.0% |
+  calc. matrices:                   191.109    54.001   0.0% |
+   Apply hamiltonian:               137.107   137.107   0.0% |
+  diagonalize:                        0.659     0.659   0.0% |
+  rotate_psi:                        20.034    20.034   0.0% |
+ Density:                            31.941     0.003   0.0% |
+  Atomic density matrices:            2.563     2.563   0.0% |
+  Mix:                               26.040    26.040   0.0% |
+  Multipole moments:                  1.413     1.413   0.0% |
+  Pseudo density:                     1.922     1.920   0.0% |
+   Symmetrize density:                0.002     0.002   0.0% |
+ Hamiltonian:                        99.159     0.013   0.0% |
+  Atomic:                             3.036     0.566   0.0% |
+   XC Correction:                     2.470     2.470   0.0% |
+  Calculate atomic Hamiltonians:     11.828    11.828   0.0% |
+  Communicate:                        7.300     7.300   0.0% |
+  Hartree integrate/restrict:         6.175     6.175   0.0% |
+  Poisson:                           52.879     2.993   0.0% |
+   Communicate from 1D:              10.896    10.896   0.0% |
+   Communicate from 2D:              11.863    11.863   0.0% |
+   Communicate to 1D:                 6.372     6.372   0.0% |
+   Communicate to 2D:                13.213    13.213   0.0% |
+   FFT 1D:                            4.222     4.222   0.0% |
+   FFT 2D:                            3.319     3.319   0.0% |
+  XC 3D grid:                        17.744    17.744   0.0% |
+  vbar:                               0.185     0.185   0.0% |
+ Orthonormalize:                      1.854     0.000   0.0% |
+  calc_s_matrix:                      0.023     0.023   0.0% |
+  inverse-cholesky:                   1.762     1.762   0.0% |
+  projections:                        0.000     0.000   0.0% |
+  rotate_psi_s:                       0.068     0.068   0.0% |
+Set symmetry:                         0.002     0.002   0.0% |
+Other:                            300192.399 300192.399  99.3% |---------------------------------------|
+------------------------------------------------------------
+Total:                                      302446.035 100.0%
+
+Memory usage: 4.54 GiB
+Date: Wed Mar  1 10:52:54 2023
