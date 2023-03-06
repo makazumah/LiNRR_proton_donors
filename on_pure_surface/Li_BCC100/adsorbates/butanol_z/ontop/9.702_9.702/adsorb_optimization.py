@@ -9,12 +9,14 @@ from ase.optimize import BFGS
 from ase.parallel import barrier
 from ase.eos import EquationOfState
 from ase.vibrations import Vibrations
+from ase.build import add_adsorbate, add_vacuum
 
 from_scratch = False
 c_path = os.path.abspath(os.getcwd())
 in_traj= c_path+ '/input.traj'
 slab = read(in_traj)
-# write("input.traj", slab)
+add_vacuum(slab, 2.)
+write("input.traj", slab)
 
 if os.path.isfile("output.gpw"):
     try:
@@ -25,6 +27,7 @@ if os.path.isfile("output.gpw"):
             slab = read("output.traj")
         else:
             slab = read("input.traj")
+            
 else:
     slab = read("input.traj") # Just an input structure. Just write slab to file
     from_scratch = True
