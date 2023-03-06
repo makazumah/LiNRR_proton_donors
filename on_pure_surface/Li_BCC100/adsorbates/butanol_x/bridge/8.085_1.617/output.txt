@@ -8833,3 +8833,43 @@ Writing to output.gpw (mode='')
 iter:  25 23:44:43  -323.411817c -6.98  -5.04c
 iter:  26 23:47:44  -323.411817c -7.03  -5.23c
 iter:  27 23:51:19  -323.411817c -7.13  -5.27c
+iter:  28 23:55:05  -323.411817c -7.29  -5.28c
+iter:  29 23:58:19  -323.411817c -7.40  -5.29c
+Writing to output.gpw (mode='')
+
+iter:  30 00:01:20  -323.411817c -7.62c -5.38c
+
+Converged after 30 iterations.
+
+Dipole moment: (-2.985957, -2.566802, -0.028674) |e|*Ang
+
+Energy contributions relative to reference atoms: (reference = -13576.627914)
+
+Kinetic:       +165.167261
+Potential:     -158.291676
+External:        +0.000000
+XC:            -330.534261
+Entropy (-ST):   -0.147197
+Local:           +0.320458
+--------------------------
+Free energy:   -323.485415
+Extrapolated:  -323.411817
+
+Dipole-layer corrected work functions: 3.401415, 3.456536 eV
+
+Showing only first 2 kpts
+ Kpt  Band  Eigenvalues  Occupancy
+  0    32     -3.72294    1.99442
+  0    33     -3.61934    1.95655
+  0    34     -3.23655    0.04173
+  0    35     -3.22146    0.03103
+
+  1    32     -3.42623    0.97258
+  1    33     -3.40540    0.76854
+  1    34     -3.38555    0.59112
+  1    35     -3.38364    0.57534
+
+
+Fermi level: -3.42898
+
+No gap
